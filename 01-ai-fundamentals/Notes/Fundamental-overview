@@ -1,0 +1,27 @@
+# AI Fundamentals — Notes
+
+## What is an LLM?
+A large language model predicts the next token based on context.  
+It uses:
+- Tokenization  
+- Embeddings  
+- Transformer layers  
+- Attention mechanisms  
+
+## Embeddings
+- Convert text → vectors  
+- Capture semantic meaning  
+- Used in RAG, search, clustering, classification  
+
+## Inference Pipeline
+1. Input text → tokens  
+2. Tokens → embeddings  
+3. Transformer layers process context  
+4. Model outputs next-token probabilities  
+
+## Security Relevance
+Understanding fundamentals is essential for:
+- Prompt injection  
+- Model extraction  
+- Adversarial attacks  
+- RAG manipulation  
